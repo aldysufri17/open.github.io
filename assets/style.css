@@ -223,3 +223,10 @@ p {
   box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
 }
+
+@media (max-width: 575px) {
+    .imgBox img {
+        max-width: 130px;
+        scale: 0.8;
+    }
+}
