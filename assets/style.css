@@ -93,7 +93,7 @@ body{
 }
 
 .imgBox img {
-    max-width: 250px;
+    max-width: 130px;
     max-height: 250px;
     scale: 0.8;
     border-radius: 7px;
