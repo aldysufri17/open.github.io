@@ -29,8 +29,12 @@ body{
     position: relative;
     display: flex;
     width: 100%;
-    height: 100%;
     overflow: hidden;
+    height: 50%;
+}
+
+.scroll-text {
+    height: 10%;
 }
 
 .scroll div {
@@ -90,6 +94,7 @@ body{
 .imgBox img {
     max-width: 130px;
     scale: 0.8;
+    border-radius: 7px;
 }
 
 .birthdayCard {
