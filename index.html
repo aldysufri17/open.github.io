@@ -12,7 +12,7 @@
 <body>
     <div id="first">
         <button class="button-30" onclick="playAudio()" id="play">Let's Play</button>
-        <audio loop autoplay="true" id="audio" src="./assets/bensound.mp3"></audio>
+        <audio loop id="audio" src="./assets/bensound.mp3"></audio>
     </div>
     <div id="content" style="display: none;">
         <div class="bg-animation">
@@ -231,6 +231,9 @@
         document.getElementById('content').style.removeProperty('display');
         document.getElementById('first').style.display = "none";
         var x = document.getElementById("audio");
-        x.play();
+
+        setTimeout(function() {
+            x.play();
+        }, 2000);
     }
 </script>
